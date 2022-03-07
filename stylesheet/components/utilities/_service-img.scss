@@ -1,0 +1,9 @@
+.service-img{
+    width: 100px;
+    height: 98px;
+    object-fit: cover;
+    @include media-breakpoint-up(sm) {
+        width: 203px;
+        height: 200px;
+     }
+}

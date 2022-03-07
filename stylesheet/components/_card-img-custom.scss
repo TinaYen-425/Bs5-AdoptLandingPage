@@ -1,0 +1,17 @@
+.card-img-custom{
+    background-position: center center;
+    height: 355px;//424px
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d-no-show{
+    display: none;
+}
+.card:hover{
+    .d-show{
+        display: none;
+    }
+    .d-no-show{
+        display: block;
+    }
+}

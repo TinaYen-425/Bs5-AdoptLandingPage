@@ -1,0 +1,36 @@
+.tri-custom{
+    // position: relative;
+      top: 43px;
+      right: 62px;
+      width: 0px;
+      height: 0px;
+      border-style: solid;
+      border-width: 20px 20px 0px 20px;
+      border-color: $secondary transparent transparent transparent;
+      &::before{
+      position: absolute;
+      top: -20px;
+      left: -17px;
+      content: "";
+      width: 0px;
+      height: 0px;
+      border-style: solid;
+      border-width: 17px 17px 0px 17px;
+      border-color: white transparent transparent transparent;
+    }
+  }
+  .line{
+    position:relative;
+    top: -20px;
+    right: 17px;
+    border: solid 1px $secondary;
+    width: 63px;
+    &::after{
+      position: absolute;
+      content: "";
+       top:  -1px;
+       left: 97px;
+       border: solid 1px $secondary;
+       width: 64px;
+    }
+  }

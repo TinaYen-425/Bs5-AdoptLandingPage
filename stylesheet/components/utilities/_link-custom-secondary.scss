@@ -1,0 +1,10 @@
+.link-custom-secondary{
+    color: $secondary;
+    &:hover{
+        color: $primary;
+    }
+    &.active{
+        color: $primary;
+    }
+}
+

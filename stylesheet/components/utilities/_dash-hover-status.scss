@@ -1,0 +1,21 @@
+.dash-hover-status{
+  color: transparent;
+  transition: .5s;
+ }
+ .dash-hover-status:hover{
+     color: $primary;
+     font-family: $font-family-sans-serif;
+     padding-right: 12px;
+     padding-left: 12px;
+     transition: .5s;
+ }
+
+ .link-custom-secondary.active{
+    .dash-hover-status{
+        color: $primary;
+        font-family: $font-family-sans-serif;
+        padding-right: 12px;
+        padding-left: 12px;
+        transition: .5s;
+    }   
+}

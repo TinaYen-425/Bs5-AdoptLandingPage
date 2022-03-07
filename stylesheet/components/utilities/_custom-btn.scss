@@ -1,0 +1,53 @@
+.custom-btn-primary{
+    background: $primary;
+    color: $secondary;
+    &:hover{
+        box-shadow: 0px 3px 0px $secondary;
+    }
+}
+.btn-outline-custom-secondary{
+    border: solid 1px $secondary;
+    border-radius: 23px 23px 23px 23px;
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    &:hover{
+        background: $primary;
+        border-color: $primary;
+        box-shadow: 0 0 0 0;
+        color: $secondary;
+    }
+    &.active{
+        background: $primary;
+        border-color: $primary;
+    }
+    &:focus{
+        box-shadow: 0 0 0 0 ;
+    }
+}   
+.btn-custom-secondary{
+    border: solid 1px $primary;
+    background: $primary;
+    border-radius: 24px 24px 24px 24px;
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 24px;
+    line-height: 1.3;
+    &:hover{
+        background: $secondary;
+        border-color: $secondary;
+        box-shadow: 0 0 0 0;
+        color: $white;
+    }
+    &.active{
+        background:  $secondary;
+        border-color:  $secondary;
+        color: $white;
+    }
+    &:focus{
+        box-shadow: 0 0 0 0 ;
+    }
+}   

@@ -1,0 +1,9 @@
+.shadow-custom-lg{
+    box-shadow: $box-shadow;
+    &:hover{
+    box-shadow:$box-shadow-lg;
+    }
+}
+.shadow-custom{
+    box-shadow: 0px 4px 8px #0000001A;
+}
