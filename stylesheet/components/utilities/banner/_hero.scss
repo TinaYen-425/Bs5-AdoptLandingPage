@@ -1,22 +1,22 @@
 .hero{
     height: 634px;
-    background-image: url(../images/home_mobile.png);
+    background-image: url(/Bs5-AdoptLandingPage/images/home_mobile.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
         @media (min-width: 576px) { 
-            background-image: url(../images/home.png);
+            background-image: url(/Bs5-AdoptLandingPage/images/home.png);
             height: 810px;
         }
 }
 .hero-service{
     height: 215px; //行動版
-    background-image: url(../images/banner_service-sm.png);
+    background-image: url(/Bs5-AdoptLandingPage/images/banner_service-sm.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
     @media(min-width: 576px){  //行動版以上
-        background-image: url(../images/banner.png);
+        background-image: url(/Bs5-AdoptLandingPage/images/banner.png);
         background-size: cover;
         height: 288px;
     }
